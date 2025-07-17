@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Mini HTML Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 50px;
+    }
+    .profile {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 0 10px gray;
+    }
+    img {
+      border-radius: 50%;
+      width: 120px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile">
+    <h1>Hello, I'm Harish!</h1>
+    <img src="https://via.placeholder.com/120" alt="Profile Picture">
+    <p>I am learning HTML. This is my first mini project!</p>
+    <p>Email: harish@example.com</p>
+  </div>
+
+</body>
+</html>
